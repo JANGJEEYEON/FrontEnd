@@ -21,3 +21,11 @@ $.ajax({
     alert("쿠폰 등록에 실패했습니다.");
   },
 });
+function toggleUserPanel() {
+  var userPanel = document.getElementById("userPanel");
+  if (userPanel.style.display === "none") {
+    userPanel.style.display = "block";
+  } else {
+    userPanel.style.display = "none";
+  }
+}

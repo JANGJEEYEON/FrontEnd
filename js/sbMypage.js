@@ -19,3 +19,11 @@ function readURL4(input) {
     document.getElementById(`sbMypage_store_img_${num}`).src = "";
   }
 }
+function toggleUserPanel() {
+  var userPanel = document.getElementById("userPanel");
+  if (userPanel.style.display === "none") {
+    userPanel.style.display = "block";
+  } else {
+    userPanel.style.display = "none";
+  }
+}

@@ -128,3 +128,11 @@ $.ajax({
     alert("소상공인 회원 등록자가 아닙니다.");
   },
 });
+function toggleUserPanel() {
+  var userPanel = document.getElementById("userPanel");
+  if (userPanel.style.display === "none") {
+    userPanel.style.display = "block";
+  } else {
+    userPanel.style.display = "none";
+  }
+}
